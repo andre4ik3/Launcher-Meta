@@ -1,0 +1,14 @@
+JavaBuild(
+    provider: Zulu,
+    version: "17.0.10",
+    edition: JRE,
+    environment: Environment(
+        os: "windows",
+        arch: "x86_64",
+    ),
+    executable: "bin\\javaw.exe",
+    download: "https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jre17.0.10-win_x64.zip",
+    name: "zulu17.48.15-ca-jre17.0.10-win_x64.zip",
+    size: 43578400,
+    checksum: "17f4cceae7117a27c97c518da8a3deec3e5946dc9c0f1edf4b3972f7b06d6080",
+)

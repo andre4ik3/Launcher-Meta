@@ -1,0 +1,14 @@
+JavaBuild(
+    provider: Zulu,
+    version: "8.0.402",
+    edition: JRE,
+    environment: Environment(
+        os: "linux",
+        arch: "x86_64",
+    ),
+    executable: "bin/java",
+    download: "https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jre8.0.402-linux_x64.tar.gz",
+    name: "zulu8.76.0.17-ca-jre8.0.402-linux_x64.tar.gz",
+    size: 42231100,
+    checksum: "a9bd2cdf8c03a7e6e139d594c8a94c6dc9721bf3da55286144d4afbf9a063335",
+)

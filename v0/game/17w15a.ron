@@ -1,0 +1,565 @@
+GameVersion(
+    id: "17w15a",
+    release_date: "2017-04-12T09:30:50Z",
+    stability: Snapshot,
+    java_version: "=8",
+    main_class: "net.minecraft.client.main.Main",
+    libraries: [
+        Unconditional(Library(
+            name: "com.mojang:patchy:1.3.9",
+            file: LibraryDownloadable(
+                path: "com/mojang/patchy/1.3.9/patchy-1.3.9.jar",
+                checksum: "eb8bb7b66fa0e2152b1b40b3856e82f7619439ee",
+                size: 23581,
+                url: "https://libraries.minecraft.net/com/mojang/patchy/1.3.9/patchy-1.3.9.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "oshi-project:oshi-core:1.1",
+            file: LibraryDownloadable(
+                path: "oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+                checksum: "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
+                size: 30973,
+                url: "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "net.java.dev.jna:jna:4.2.2",
+            file: LibraryDownloadable(
+                path: "net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar",
+                checksum: "5012450aee579c3118ff09461d5ce210e0cdc2a9",
+                size: 1137286,
+                url: "https://libraries.minecraft.net/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "net.java.dev.jna:platform:3.4.0",
+            file: LibraryDownloadable(
+                path: "net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
+                checksum: "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
+                size: 913436,
+                url: "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.ibm.icu:icu4j-core-mojang:51.2",
+            file: LibraryDownloadable(
+                path: "com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
+                checksum: "63d216a9311cca6be337c1e458e587f99d382b84",
+                size: 1634692,
+                url: "https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "net.sf.jopt-simple:jopt-simple:5.0.3",
+            file: LibraryDownloadable(
+                path: "net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar",
+                checksum: "cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a",
+                size: 78175,
+                url: "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.paulscode:codecjorbis:20101023",
+            file: LibraryDownloadable(
+                path: "com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+                checksum: "c73b5636faf089d9f00e8732a829577de25237ee",
+                size: 103871,
+                url: "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.paulscode:codecwav:20101023",
+            file: LibraryDownloadable(
+                path: "com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+                checksum: "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
+                size: 5618,
+                url: "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.paulscode:libraryjavasound:20101123",
+            file: LibraryDownloadable(
+                path: "com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+                checksum: "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
+                size: 21679,
+                url: "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.paulscode:librarylwjglopenal:20100824",
+            file: LibraryDownloadable(
+                path: "com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+                checksum: "73e80d0794c39665aec3f62eee88ca91676674ef",
+                size: 18981,
+                url: "https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.paulscode:soundsystem:20120107",
+            file: LibraryDownloadable(
+                path: "com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+                checksum: "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
+                size: 65020,
+                url: "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "io.netty:netty-all:4.1.9.Final",
+            file: LibraryDownloadable(
+                path: "io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar",
+                checksum: "0097860965d6a0a6b98e7f569f3f966727b8db75",
+                size: 3511093,
+                url: "https://libraries.minecraft.net/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.google.guava:guava:21.0",
+            file: LibraryDownloadable(
+                path: "com/google/guava/guava/21.0/guava-21.0.jar",
+                checksum: "3a3d111be1be1b745edfa7d91678a12d7ed38709",
+                size: 2521113,
+                url: "https://libraries.minecraft.net/com/google/guava/guava/21.0/guava-21.0.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "org.apache.commons:commons-lang3:3.5",
+            file: LibraryDownloadable(
+                path: "org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar",
+                checksum: "6c6c702c89bfff3cd9e80b04d668c5e190d588c6",
+                size: 479881,
+                url: "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "commons-io:commons-io:2.5",
+            file: LibraryDownloadable(
+                path: "commons-io/commons-io/2.5/commons-io-2.5.jar",
+                checksum: "2852e6e05fbb95076fc091f6d1780f1f8fe35e0f",
+                size: 208700,
+                url: "https://libraries.minecraft.net/commons-io/commons-io/2.5/commons-io-2.5.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "commons-codec:commons-codec:1.10",
+            file: LibraryDownloadable(
+                path: "commons-codec/commons-codec/1.10/commons-codec-1.10.jar",
+                checksum: "4b95f4897fa13f2cd904aee711aeafc0c5295cd8",
+                size: 284184,
+                url: "https://libraries.minecraft.net/commons-codec/commons-codec/1.10/commons-codec-1.10.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "net.java.jinput:jinput:2.0.5",
+            file: LibraryDownloadable(
+                path: "net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+                checksum: "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+                size: 208338,
+                url: "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "net.java.jutils:jutils:1.0.0",
+            file: LibraryDownloadable(
+                path: "net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+                checksum: "e12fe1fda814bd348c1579329c86943d2cd3c6a6",
+                size: 7508,
+                url: "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.google.code.gson:gson:2.8.0",
+            file: LibraryDownloadable(
+                path: "com/google/code/gson/gson/2.8.0/gson-2.8.0.jar",
+                checksum: "c4ba5371a29ac9b2ad6129b1d39ea38750043eff",
+                size: 231952,
+                url: "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.mojang:authlib:1.5.25",
+            file: LibraryDownloadable(
+                path: "com/mojang/authlib/1.5.25/authlib-1.5.25.jar",
+                checksum: "9834cdf236c22e84b946bba989e2f94ef5897c3c",
+                size: 65621,
+                url: "https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "com.mojang:realms:1.10.8",
+            file: LibraryDownloadable(
+                path: "com/mojang/realms/1.10.8/realms-1.10.8.jar",
+                checksum: "67560bbd6a83d48ae8b956f1feac09010bde879c",
+                size: 3025164,
+                url: "https://libraries.minecraft.net/com/mojang/realms/1.10.8/realms-1.10.8.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "org.apache.commons:commons-compress:1.8.1",
+            file: LibraryDownloadable(
+                path: "org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+                checksum: "a698750c16740fd5b3871425f4cb3bbaa87f529d",
+                size: 365552,
+                url: "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "org.apache.httpcomponents:httpclient:4.3.3",
+            file: LibraryDownloadable(
+                path: "org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar",
+                checksum: "18f4247ff4572a074444572cee34647c43e7c9c7",
+                size: 589512,
+                url: "https://libraries.minecraft.net/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "commons-logging:commons-logging:1.1.3",
+            file: LibraryDownloadable(
+                path: "commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+                checksum: "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f",
+                size: 62050,
+                url: "https://libraries.minecraft.net/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "org.apache.httpcomponents:httpcore:4.3.2",
+            file: LibraryDownloadable(
+                path: "org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+                checksum: "31fbbff1ddbf98f3aa7377c94d33b0447c646b6e",
+                size: 282269,
+                url: "https://libraries.minecraft.net/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "it.unimi.dsi:fastutil:7.1.0",
+            file: LibraryDownloadable(
+                path: "it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar",
+                checksum: "9835253257524c1be7ab50c057aa2d418fb72082",
+                size: 17655579,
+                url: "https://libraries.minecraft.net/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "org.apache.logging.log4j:log4j-api:2.8.1",
+            file: LibraryDownloadable(
+                path: "org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar",
+                checksum: "e801d13612e22cad62a3f4f3fe7fdbe6334a8e72",
+                size: 228859,
+                url: "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "org.apache.logging.log4j:log4j-core:2.8.1",
+            file: LibraryDownloadable(
+                path: "org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar",
+                checksum: "4ac28ff2f1ddf05dae3043a190451e8c46b73c31",
+                size: 1402925,
+                url: "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar",
+            ),
+        )),
+        Conditional(
+            when: OS("macos"),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar",
+                    checksum: "697517568c68e78ae0b4544145af031c81082dfe",
+                    size: 1047168,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("macos"),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar",
+                    checksum: "d51a7c040a721d13efdfbd34f8b257b2df882ad0",
+                    size: 173887,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: And([
+                OS("macos"),
+                OS("linux"),
+            ]),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar",
+                    checksum: "931074f46c795d2f7b30ed6395df5715cfd7675b",
+                    size: 578680,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: And([
+                OS("macos"),
+                OS("macos"),
+            ]),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar",
+                    checksum: "bcab850f8f487c3f4c4dbabde778bb82bd1a40ed",
+                    size: 426822,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: And([
+                OS("macos"),
+                OS("windows"),
+            ]),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar",
+                    checksum: "b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0",
+                    size: 613748,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar",
+                ),
+            ),
+        ),
+        Unconditional(Library(
+            name: "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+            file: LibraryDownloadable(
+                path: "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.jar",
+                checksum: "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
+                size: 22,
+                url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.jar",
+            ),
+        )),
+        Conditional(
+            when: OS("macos"),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl:2.9.2-nightly-20140822",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar",
+                    checksum: "7707204c9ffa5d91662de95f0a224e2f721b22af",
+                    size: 1045632,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("macos"),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl_util:2.9.2-nightly-20140822",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar",
+                    checksum: "f0e612c840a7639c1f77f68d72a28dae2f0c8490",
+                    size: 173887,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: And([
+                OS("macos"),
+                OS("linux"),
+            ]),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar",
+                    checksum: "d898a33b5d0a6ef3fed3a4ead506566dce6720a5",
+                    size: 578539,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: And([
+                OS("macos"),
+                OS("macos"),
+            ]),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar",
+                    checksum: "79f5ce2fea02e77fe47a3c745219167a542121d7",
+                    size: 468116,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: And([
+                OS("macos"),
+                OS("windows"),
+            ]),
+            then: Library(
+                name: "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar",
+                    checksum: "78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341",
+                    size: 613680,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("linux"),
+            then: Library(
+                name: "net.java.jinput:jinput-platform:2.0.5",
+                file: LibraryDownloadable(
+                    path: "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+                    checksum: "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+                    size: 10362,
+                    url: "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("macos"),
+            then: Library(
+                name: "net.java.jinput:jinput-platform:2.0.5",
+                file: LibraryDownloadable(
+                    path: "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+                    checksum: "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+                    size: 12186,
+                    url: "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("windows"),
+            then: Library(
+                name: "net.java.jinput:jinput-platform:2.0.5",
+                file: LibraryDownloadable(
+                    path: "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+                    checksum: "385ee093e01f587f30ee1c8a2ee7d408fd732e16",
+                    size: 155179,
+                    url: "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+                ),
+            ),
+        ),
+        Unconditional(Library(
+            name: "com.mojang:text2speech:1.6",
+            file: LibraryDownloadable(
+                path: "com/mojang/text2speech/1.6/text2speech-1.6.jar",
+                checksum: "bb10fd127259f19ade452d20049de969eee6bb8f",
+                size: 10402,
+                url: "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6.jar",
+            ),
+        )),
+        Conditional(
+            when: OS("linux"),
+            then: Library(
+                name: "com.mojang:text2speech:1.6",
+                file: LibraryDownloadable(
+                    path: "com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar",
+                    checksum: "bc92446593a565db02494cea6c5048ad0681f3d0",
+                    size: 7833,
+                    url: "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-linux.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("windows"),
+            then: Library(
+                name: "com.mojang:text2speech:1.6",
+                file: LibraryDownloadable(
+                    path: "com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar",
+                    checksum: "0537943b8ae192ba211c8e0daf85fef60aecd7fe",
+                    size: 9634,
+                    url: "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6-natives-windows.jar",
+                ),
+            ),
+        ),
+        Unconditional(Library(
+            name: "com.mojang:text2speech:1.6",
+            file: LibraryDownloadable(
+                path: "com/mojang/text2speech/1.6/text2speech-1.6.jar",
+                checksum: "bb10fd127259f19ade452d20049de969eee6bb8f",
+                size: 10402,
+                url: "https://libraries.minecraft.net/com/mojang/text2speech/1.6/text2speech-1.6.jar",
+            ),
+        )),
+        Conditional(
+            when: And([
+                OS("macos"),
+                OS("macos"),
+            ]),
+            then: Library(
+                name: "ca.weblite:java-objc-bridge:1.0.0",
+                file: LibraryDownloadable(
+                    path: "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-natives-osx.jar",
+                    checksum: "08befab4894d55875f33c3d300f4f71e6e828f64",
+                    size: 5629,
+                    url: "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-natives-osx.jar",
+                ),
+            ),
+        ),
+        Unconditional(Library(
+            name: "ca.weblite:java-objc-bridge:1.0.0",
+            file: LibraryDownloadable(
+                path: "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar",
+                checksum: "6ef160c3133a78de015830860197602ca1c855d3",
+                size: 40502,
+                url: "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar",
+            ),
+        )),
+        Conditional(
+            when: OS("macos"),
+            then: Library(
+                name: "ca.weblite:java-objc-bridge:1.0.0",
+                file: LibraryDownloadable(
+                    path: "ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar",
+                    checksum: "6ef160c3133a78de015830860197602ca1c855d3",
+                    size: 40502,
+                    url: "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar",
+                ),
+            ),
+        ),
+    ],
+    java_arguments: [
+        Conditional(
+            when: OS("macos"),
+            then: "-XstartOnFirstThread",
+        ),
+        Conditional(
+            when: OS("windows"),
+            then: "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
+        ),
+        Conditional(
+            when: OS("windows"),
+            then: "-Dos.name=Windows 10",
+        ),
+        Conditional(
+            when: OS("windows"),
+            then: "-Dos.version=10.0",
+        ),
+        Unconditional("-Djava.library.path=${natives_directory}"),
+        Unconditional("-Dminecraft.launcher.brand=${launcher_name}"),
+        Unconditional("-Dminecraft.launcher.version=${launcher_version}"),
+        Unconditional("-cp"),
+        Unconditional("${classpath}"),
+    ],
+    game_arguments: [
+        Unconditional("--username"),
+        Unconditional("${auth_player_name}"),
+        Unconditional("--version"),
+        Unconditional("${version_name}"),
+        Unconditional("--gameDir"),
+        Unconditional("${game_directory}"),
+        Unconditional("--assetsDir"),
+        Unconditional("${assets_root}"),
+        Unconditional("--assetIndex"),
+        Unconditional("${assets_index_name}"),
+        Unconditional("--uuid"),
+        Unconditional("${auth_uuid}"),
+        Unconditional("--accessToken"),
+        Unconditional("${auth_access_token}"),
+        Unconditional("--userType"),
+        Unconditional("${user_type}"),
+        Unconditional("--versionType"),
+        Unconditional("${version_type}"),
+    ],
+)
