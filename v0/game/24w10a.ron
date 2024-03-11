@@ -1,6 +1,6 @@
 GameVersion(
-    id: "1.20.3-rc1",
-    release_date: "2023-11-30T13:41:45Z",
+    id: "24w10a",
+    release_date: "2024-03-06T10:37:35Z",
     stability: Snapshot,
     java_version: ">=17",
     main_class: "net.minecraft.client.main.Main",
@@ -18,12 +18,12 @@ GameVersion(
             ),
         ),
         Unconditional(Library(
-            name: "com.github.oshi:oshi-core:6.4.5",
+            name: "com.github.oshi:oshi-core:6.4.10",
             file: LibraryDownloadable(
-                path: "com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar",
-                checksum: "943ba26de047eb6b28fff47f5ee939a34eb5fc8e",
-                size: 970546,
-                url: "https://libraries.minecraft.net/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar",
+                path: "com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar",
+                checksum: "b1d8ab82d11d92fd639b56d639f8f46f739dd5fa",
+                size: 979212,
+                url: "https://libraries.minecraft.net/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar",
             ),
         )),
         Unconditional(Library(
@@ -90,21 +90,21 @@ GameVersion(
             ),
         )),
         Unconditional(Library(
-            name: "com.mojang:datafixerupper:6.0.8",
+            name: "com.mojang:datafixerupper:6.0.12",
             file: LibraryDownloadable(
-                path: "com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
-                checksum: "3ba4a30557a9b057760af4011f909ba619fc5125",
-                size: 689960,
-                url: "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+                path: "com/mojang/datafixerupper/6.0.12/datafixerupper-6.0.12.jar",
+                checksum: "6b7489151e4440116d51c86f7696cc9447f53bff",
+                size: 690301,
+                url: "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.12/datafixerupper-6.0.12.jar",
             ),
         )),
         Unconditional(Library(
-            name: "com.mojang:logging:1.1.1",
+            name: "com.mojang:logging:1.2.7",
             file: LibraryDownloadable(
-                path: "com/mojang/logging/1.1.1/logging-1.1.1.jar",
-                checksum: "832b8e6674a9b325a5175a3a6267dfaf34c85139",
+                path: "com/mojang/logging/1.2.7/logging-1.2.7.jar",
+                checksum: "24cb95ffb0e3433fd6e844c04e68009e504ca1c0",
                 size: 15343,
-                url: "https://libraries.minecraft.net/com/mojang/logging/1.1.1/logging-1.1.1.jar",
+                url: "https://libraries.minecraft.net/com/mojang/logging/1.2.7/logging-1.2.7.jar",
             ),
         )),
         Unconditional(Library(
@@ -135,12 +135,12 @@ GameVersion(
             ),
         )),
         Unconditional(Library(
-            name: "commons-io:commons-io:2.13.0",
+            name: "commons-io:commons-io:2.15.1",
             file: LibraryDownloadable(
-                path: "commons-io/commons-io/2.13.0/commons-io-2.13.0.jar",
-                checksum: "8bb2bc9b4df17e2411533a0708a69f983bf5e83b",
-                size: 483954,
-                url: "https://libraries.minecraft.net/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar",
+                path: "commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
+                checksum: "f11560da189ab563a5c8e351941415430e9304ea",
+                size: 501218,
+                url: "https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
             ),
         )),
         Unconditional(Library(
@@ -258,21 +258,21 @@ GameVersion(
             ),
         )),
         Unconditional(Library(
-            name: "net.java.dev.jna:jna-platform:5.13.0",
+            name: "net.java.dev.jna:jna-platform:5.14.0",
             file: LibraryDownloadable(
-                path: "net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar",
-                checksum: "88e9a306715e9379f3122415ef4ae759a352640d",
-                size: 1363209,
-                url: "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar",
+                path: "net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar",
+                checksum: "28934d48aed814f11e4c584da55c49fa7032b31b",
+                size: 1369287,
+                url: "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar",
             ),
         )),
         Unconditional(Library(
-            name: "net.java.dev.jna:jna:5.13.0",
+            name: "net.java.dev.jna:jna:5.14.0",
             file: LibraryDownloadable(
-                path: "net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar",
-                checksum: "1200e7ebeedbe0d10062093f32925a912020e747",
-                size: 1879325,
-                url: "https://libraries.minecraft.net/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar",
+                path: "net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar",
+                checksum: "67bf3eaea4f0718cb376a181a629e5f88fa1c9dd",
+                size: 1878533,
+                url: "https://libraries.minecraft.net/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar",
             ),
         )),
         Unconditional(Library(
@@ -285,21 +285,21 @@ GameVersion(
             ),
         )),
         Unconditional(Library(
-            name: "org.apache.commons:commons-compress:1.22",
+            name: "org.apache.commons:commons-compress:1.26.0",
             file: LibraryDownloadable(
-                path: "org/apache/commons/commons-compress/1.22/commons-compress-1.22.jar",
-                checksum: "691a8b4e6cf4248c3bc72c8b719337d5cb7359fa",
-                size: 1039712,
-                url: "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.22/commons-compress-1.22.jar",
+                path: "org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar",
+                checksum: "659feffdd12280201c8aacb8f7be94f9a883c824",
+                size: 1078328,
+                url: "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar",
             ),
         )),
         Unconditional(Library(
-            name: "org.apache.commons:commons-lang3:3.13.0",
+            name: "org.apache.commons:commons-lang3:3.14.0",
             file: LibraryDownloadable(
-                path: "org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar",
-                checksum: "b7263237aa89c1f99b327197c41d0669707a462e",
-                size: 632267,
-                url: "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar",
+                path: "org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
+                checksum: "1ed471194b02f2c6cb734a0cd6f6f107c673afae",
+                size: 657952,
+                url: "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
             ),
         )),
         Unconditional(Library(
@@ -321,30 +321,30 @@ GameVersion(
             ),
         )),
         Unconditional(Library(
-            name: "org.apache.logging.log4j:log4j-api:2.19.0",
+            name: "org.apache.logging.log4j:log4j-api:2.22.1",
             file: LibraryDownloadable(
-                path: "org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar",
-                checksum: "ea1b37f38c327596b216542bc636cfdc0b8036fa",
-                size: 317566,
-                url: "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar",
+                path: "org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar",
+                checksum: "bea6fede6328fabafd7e68363161a7ea6605abd1",
+                size: 335001,
+                url: "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar",
             ),
         )),
         Unconditional(Library(
-            name: "org.apache.logging.log4j:log4j-core:2.19.0",
+            name: "org.apache.logging.log4j:log4j-core:2.22.1",
             file: LibraryDownloadable(
-                path: "org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar",
-                checksum: "3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb",
-                size: 1864386,
-                url: "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar",
+                path: "org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar",
+                checksum: "7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4",
+                size: 1900022,
+                url: "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar",
             ),
         )),
         Unconditional(Library(
-            name: "org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0",
+            name: "org.apache.logging.log4j:log4j-slf4j2-impl:2.22.1",
             file: LibraryDownloadable(
-                path: "org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar",
-                checksum: "5c04bfdd63ce9dceb2e284b81e96b6a70010ee10",
-                size: 27721,
-                url: "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar",
+                path: "org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar",
+                checksum: "d7e6693c2606cb7e7335047d7bb96dec52db5665",
+                size: 27364,
+                url: "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar",
             ),
         )),
         Unconditional(Library(
@@ -356,6 +356,87 @@ GameVersion(
                 url: "https://libraries.minecraft.net/org/joml/joml/1.10.5/joml-1.10.5.jar",
             ),
         )),
+        Unconditional(Library(
+            name: "org.lwjgl:lwjgl-freetype:3.3.2",
+            file: LibraryDownloadable(
+                path: "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2.jar",
+                checksum: "4432335260047128efe750f40c07514826cc4e48",
+                size: 442372,
+                url: "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2.jar",
+            ),
+        )),
+        Conditional(
+            when: OS("linux"),
+            then: Library(
+                name: "org.lwjgl:lwjgl-freetype:3.3.2",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-linux.jar",
+                    checksum: "01372c56fc041a5e7bf4b71622640c295aeae2b2",
+                    size: 1207943,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-linux.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("macos"),
+            then: Library(
+                name: "org.lwjgl:lwjgl-freetype:3.3.2",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-macos.jar",
+                    checksum: "02d13a949aa526b58b1c46246c8d8c4efb845e5d",
+                    size: 1133770,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-macos.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("macos"),
+            then: Library(
+                name: "org.lwjgl:lwjgl-freetype:3.3.2",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-macos-arm64.jar",
+                    checksum: "71872f69ad2df2ba838e462c7a2bf09f1bdfc2c5",
+                    size: 1031798,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-macos-arm64.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("windows"),
+            then: Library(
+                name: "org.lwjgl:lwjgl-freetype:3.3.2",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-windows.jar",
+                    checksum: "1e4acf1331dded3b4386fb7c3505c49c587f4f42",
+                    size: 1006363,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-windows.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("windows"),
+            then: Library(
+                name: "org.lwjgl:lwjgl-freetype:3.3.2",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-windows-arm64.jar",
+                    checksum: "be03946a18955b5ed958b509cfec78140b10bc33",
+                    size: 875694,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-windows-arm64.jar",
+                ),
+            ),
+        ),
+        Conditional(
+            when: OS("windows"),
+            then: Library(
+                name: "org.lwjgl:lwjgl-freetype:3.3.2",
+                file: LibraryDownloadable(
+                    path: "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-windows-x86.jar",
+                    checksum: "54d9c63d42dea253b27ce981ce1a7c970eb0a071",
+                    size: 868400,
+                    url: "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-windows-x86.jar",
+                ),
+            ),
+        ),
         Unconditional(Library(
             name: "org.lwjgl:lwjgl-glfw:3.3.2",
             file: LibraryDownloadable(
@@ -924,12 +1005,21 @@ GameVersion(
             ),
         ),
         Unconditional(Library(
-            name: "org.slf4j:slf4j-api:2.0.7",
+            name: "org.lz4:lz4-java:1.8.0",
             file: LibraryDownloadable(
-                path: "org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar",
-                checksum: "41eb7184ea9d556f23e18b5cb99cad1f8581fc00",
-                size: 63635,
-                url: "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar",
+                path: "org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
+                checksum: "4b986a99445e49ea5fbf5d149c4b63f6ed6c6780",
+                size: 682804,
+                url: "https://libraries.minecraft.net/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
+            ),
+        )),
+        Unconditional(Library(
+            name: "org.slf4j:slf4j-api:2.0.9",
+            file: LibraryDownloadable(
+                path: "org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
+                checksum: "7cf2726fdcfbc8610f9a71fb3ed639871f315340",
+                size: 64579,
+                url: "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
             ),
         )),
     ],

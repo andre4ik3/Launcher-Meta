@@ -1,5 +1,9 @@
 [
     GameVersionSnippet(
+        id: "24w10a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
         id: "24w09a",
         stability: Snapshot,
     ),
@@ -2624,11 +2628,11 @@
         stability: Release,
     ),
     GameVersionSnippet(
-        id: "1.4.5",
+        id: "1.4.6",
         stability: Release,
     ),
     GameVersionSnippet(
-        id: "1.4.6",
+        id: "1.4.5",
         stability: Release,
     ),
     GameVersionSnippet(

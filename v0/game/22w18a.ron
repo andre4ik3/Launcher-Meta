@@ -734,7 +734,7 @@ GameVersion(
         Conditional(
             when: OS("windows"),
             then: Library(
-                name: "org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-arm64",
+                name: "org.lwjgl:lwjgl-glfw:3.3.1",
                 file: LibraryDownloadable(
                     path: "org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-arm64.jar",
                     checksum: "beda65ee503443e60aa196d58ed31f8d001dc22a",
@@ -746,7 +746,7 @@ GameVersion(
         Conditional(
             when: OS("windows"),
             then: Library(
-                name: "org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-arm64",
+                name: "org.lwjgl:lwjgl-jemalloc:3.3.1",
                 file: LibraryDownloadable(
                     path: "org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar",
                     checksum: "cae85c4edb219c88b6a0c26a87955ad98dc9519d",
@@ -758,7 +758,7 @@ GameVersion(
         Conditional(
             when: OS("windows"),
             then: Library(
-                name: "org.lwjgl:lwjgl-openal:3.3.1:natives-windows-arm64",
+                name: "org.lwjgl:lwjgl-openal:3.3.1",
                 file: LibraryDownloadable(
                     path: "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-arm64.jar",
                     checksum: "40d65f1a7368a2aa47336f9cb69f5a190cf9975a",
@@ -770,7 +770,7 @@ GameVersion(
         Conditional(
             when: OS("windows"),
             then: Library(
-                name: "org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-arm64",
+                name: "org.lwjgl:lwjgl-opengl:3.3.1",
                 file: LibraryDownloadable(
                     path: "org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-arm64.jar",
                     checksum: "527d78f1e9056aff3ed02ce93019c73c5e8f1721",
@@ -782,7 +782,7 @@ GameVersion(
         Conditional(
             when: OS("windows"),
             then: Library(
-                name: "org.lwjgl:lwjgl-stb:3.3.1:natives-windows-arm64",
+                name: "org.lwjgl:lwjgl-stb:3.3.1",
                 file: LibraryDownloadable(
                     path: "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-arm64.jar",
                     checksum: "fde63cdd2605c00636721a6c8b961e41d1f6b247",
@@ -794,7 +794,7 @@ GameVersion(
         Conditional(
             when: OS("windows"),
             then: Library(
-                name: "org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-arm64",
+                name: "org.lwjgl:lwjgl-tinyfd:3.3.1",
                 file: LibraryDownloadable(
                     path: "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar",
                     checksum: "83a5e780df610829ff3a737822b4f931cffecd91",
@@ -806,7 +806,7 @@ GameVersion(
         Conditional(
             when: OS("windows"),
             then: Library(
-                name: "org.lwjgl:lwjgl:3.3.1:natives-windows-arm64",
+                name: "org.lwjgl:lwjgl:3.3.1",
                 file: LibraryDownloadable(
                     path: "org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-arm64.jar",
                     checksum: "0f46cadcf95675908fd3a550d63d9d709cb68998",
