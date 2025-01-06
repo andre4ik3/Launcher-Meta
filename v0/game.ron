@@ -1,5 +1,229 @@
 [
     GameVersionSnippet(
+        id: "1.21.4",
+        stability: Release,
+    ),
+    GameVersionSnippet(
+        id: "1.21.4-rc3",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.4-rc2",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.4-rc1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.4-pre3",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.4-pre2",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.4-pre1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w46a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w45a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w44a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.3",
+        stability: Release,
+    ),
+    GameVersionSnippet(
+        id: "1.21.2",
+        stability: Release,
+    ),
+    GameVersionSnippet(
+        id: "1.21.2-rc2",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.2-rc1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.2-pre5",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.2-pre4",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.2-pre3",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.2-pre2",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.2-pre1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w40a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w39a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w38a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w37a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w36a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w35a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w34a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w33a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21.1",
+        stability: Release,
+    ),
+    GameVersionSnippet(
+        id: "1.21.1-rc1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21",
+        stability: Release,
+    ),
+    GameVersionSnippet(
+        id: "1.21-rc1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21-pre4",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21-pre3",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21-pre2",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.21-pre1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w21b",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w21a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w20a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w19b",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w19a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w18a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.20.6",
+        stability: Release,
+    ),
+    GameVersionSnippet(
+        id: "1.20.6-rc1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.20.5",
+        stability: Release,
+    ),
+    GameVersionSnippet(
+        id: "1.20.5-rc3",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.20.5-rc2",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.20.5-rc1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.20.5-pre4",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.20.5-pre3",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.20.5-pre2",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "1.20.5-pre1",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w14a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w14potato",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w13a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w12a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
+        id: "24w11a",
+        stability: Snapshot,
+    ),
+    GameVersionSnippet(
         id: "24w10a",
         stability: Snapshot,
     ),
@@ -2628,11 +2852,11 @@
         stability: Release,
     ),
     GameVersionSnippet(
-        id: "1.4.6",
+        id: "1.4.5",
         stability: Release,
     ),
     GameVersionSnippet(
-        id: "1.4.5",
+        id: "1.4.6",
         stability: Release,
     ),
     GameVersionSnippet(
